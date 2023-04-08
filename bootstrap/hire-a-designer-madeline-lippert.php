@@ -1,6 +1,6 @@
 <?php 
 	
-	$page = 'Resume';
+	$page = 'resume';
 
 	$pageTitle = 'View my design resume!';
 

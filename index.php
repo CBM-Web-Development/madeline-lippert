@@ -1,6 +1,6 @@
 <?php 
 	
-	$page = 'template';
+	$page = 'home';
 
 	$pageTitle = 'Hi! I&#39;m Madeline. I am a graphic designer, web desinger, and an illustrator.';
 
@@ -8,7 +8,7 @@
 
 	$pageKeyword = 'hire a designer, i need a website, graphic designer 28205, charlotte graphic designer, charlotte designer, charlotte nc graphic design, i need a logo, graphic designer charlotte nc';
 
-	include('inc/headcode.html'); 
+	include('bootstrap/inc/headcode.html'); 
 
 ?>
 				<h1>I am building a website!</h1>
