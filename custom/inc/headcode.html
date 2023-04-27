@@ -1,0 +1,69 @@
+<!doctype html>
+<Html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			<?php echo $pageTitle; ?>
+		</title>
+		<meta name="viewport" content="width=device-width, intial-scale=1.0">
+		<meta name="description" contect="<?php echo $pageDesc; ?>">
+		<meta name="keywords" content="<?php echo $pageKeyword; ?>">
+		<meta name="designer" content="Madeline Lippert">
+		<meta name="author" content="Madeline Lippert">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+<!--Google Fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;800&display=swap" rel="stylesheet">
+
+		<!-- this is my custom css -->
+		<link href="/css/styles.css" rel="stylesheet">
+		<link href="/css/resume.css" rel="stylesheet">
+
+		
+		<!-- temporary styles; move to style sheets later -->
+		<style>
+			.active {
+				font-weight: bold;
+				color: red;
+			}
+			
+			.header-logo{
+				width:100%;
+				max-width:75px;
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		  <div class="container-fluid">
+			<a class="navbar-brand" href="index.php">
+				<img src="img/ML-logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-center">
+				Madeline Lippert
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+				  <a class="nav-link <?php echo($page == 'home' ? ' active' :'');  ?>" title="Please take a look at some of my best work to see if our design styles align!"  aria-current="page" href="index.php">Home</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link <?php echo($page == 'portfolio' ? ' active' :'');  ?>"  title="I'm a Graphic Designer who loves to learn new things. Learn more about me to what we have in common." aria-current="page" href="graphic-design-portfolio.php">Portfolio</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link <?php echo($page == 'resume' ? ' active' :'');  ?>" title="Take a look at my resume to learn more about my work history and what I can bring to your team."   aria-current="page" href="resume.php">Resume</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link <?php echo($page == 'contact' ? ' active' :'');  ?>" title="Contact me to discuss your next project"  aria-current="page" href="contact-a-graphic-designer.php">Contact</a>
+				</li>
+			</div>
+		  </div>
+		</nav>
+		
+		<main class="container">
+				
