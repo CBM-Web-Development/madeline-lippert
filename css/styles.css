@@ -1,0 +1,89 @@
+/* Body Styles */
+
+.headshot {
+	width: 100%;	
+	border-radius:75%;
+	width:250px;
+	height:300px;
+}
+
+.callout-section p{
+	text-transform: uppercase;
+}
+
+.grey-section{
+	background-color:lightgrey;
+}
+
+.home-project{
+	width:100%;
+	position:
+}
+
+/* Desktop only Styles */
+@media(min-width:786px){
+	.headshot{
+		margin-right: 15px;
+		margin-bottom:15px;
+	}
+	
+	
+	.main-body{
+		font-size:2em;
+	}
+	
+	.main-title{
+		max-width:100vw;
+		word-break: keep-all;
+		word-wrap: unset;
+		font-size:3.5em;
+		text-align:center;
+		text-transform: uppercase;
+	}
+}
+
+.project{
+	display:block;
+	position:relative;
+	padding:5px !important;
+}
+
+.project>.overlay-text {
+	display:none;
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align: center;
+	transform:translateY(-50%);
+	text-transform: uppercase;
+	color:#ffffff;
+	z-index: 2;
+	font-size:3em;
+}
+
+.mask {
+	display:none;
+	position:absolute;
+	top:3px;
+	bottom:4px;
+	width:98.9%;
+	z-index:1;
+	background-color:#000000;
+	opacity:0.50;
+}
+
+.project:hover .overlay-text, .project:hover .mask{
+	display:block;
+}
+
+
+/* Navigation Style */
+.navbar{
+	box-shadow: 0px 2px 15px -2px rgba(0, 0, 0, 0.2) !important;
+}
+
+
+
+
+
+
