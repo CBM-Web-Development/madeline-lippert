@@ -116,9 +116,16 @@
 			</div>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col mx-auto">
+			<p class="text-center">
+				<a href="downloads/Madeline_Lippert_Resume.pdf" title="Resume Download" class="link-primary">Download a Copy of My Resume</a>
+			</p>
+		</div>
+	</div>
 </div>
 
-				<a href="downloads/Madeline_Lippert_Resume.pdf" title="Resume Download">Download a Copy of My Resume</a>
+				
 
 			
 			<?php 
