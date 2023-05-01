@@ -12,13 +12,32 @@
 
 ?>
 <div class="row">
-	<div class="col mx-auto d-flex justify-content-center flex-lg-row flex-column align-items-center main-body">
-		<img class="headshot" src="img/headshot2.jpeg">
-		<div class="d-flex flex-column justify-content-center align-items-center callout-section">
-			<p>graphic design</p>
-			<p>print media</p>
-			<p>digital creative</p>
-			<p>mobile design</p>
+	<div class="col mx-auto d-flex flex-lg-column flex-column-reverse">
+		<div class="col-lg-6 mx-auto d-flex justify-content-center flex-lg-row flex-column align-items-center">
+				<img class="headshot" src="img/headshot2.jpeg">
+				<div class="col mx-auto d-sm-flex d-lg-none justify-content-center flex-lg-row flex-column align-items-center main-body">
+					<div class="d-flex flex-column flex-lg-row justify-content-center align-items-center callout-section">
+						<p>graphic design</p>
+						<p class="d-lg-block d-none mx-3 ">|</p>
+						<p>print media</p>
+						<p class="d-lg-block d-none mx-3">|</p>
+						<p>digital creative</p>
+						<p class="d-lg-block d-none mx-3">|</p>
+						<p>mobile design</p>
+					</div>
+				</div>
+				<p class="text-center text-md">I am a designer from Charlotte, NC.  I grew up loving illustration, and have turned that passion into a career. I have expierence in a number of design fields, including graphc design and web design.  Let me show you some of <a href="graphic-design-portfolio.php" class="link-primary">my work</a> so that you can learn more about how I solve problems with a balance of creativity and pragmatism.</p>
+		</div>
+		<div class="col mx-auto d-lg-flex d-none justify-content-center flex-lg-row flex-column align-items-center main-body">
+			<div class="d-flex flex-column flex-lg-row justify-content-center align-items-center callout-section">
+				<p>graphic design</p>
+				<p class="d-lg-block d-none mx-3 ">|</p>
+				<p>print media</p>
+				<p class="d-lg-block d-none mx-3">|</p>
+				<p>digital creative</p>
+				<p class="d-lg-block d-none mx-3">|</p>
+				<p>mobile design</p>
+			</div>
 		</div>
 	</div>
 </div>
@@ -56,10 +75,7 @@
 
 
 <div class="row">
-	<div class="col-lg-8 col-12 mx-auto">
-		
-		<p class="text-center text-lg">I am a designer from Charlotte, NC.  I grew up loving illustration, and have turned that passion into a career. I have expierence in a number of design fields, including graphc design and web design.  <a href="graphic-design-portfolio.php">Let me show you some of my work so that you can learn more about how I solve problems with a balance of creativity and pragmatism.</a></p>
-	</div>
+	
 </div>
 
 				
